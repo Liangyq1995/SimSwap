@@ -11,6 +11,8 @@ import cv2
 import numpy as np
 from skimage import transform as trans
 
+np.float32 = float
+
 src1 = np.array([[51.642, 50.115], [57.617, 49.990], [35.740, 69.007],
                  [51.157, 89.050], [57.025, 89.702]],
                 dtype=np.float32)
