@@ -5,7 +5,7 @@ import torch
 from torch.nn import functional as F
 import torch.nn as nn
 
-
+np.float = float
 def encode_segmentation_rgb(segmentation, no_neck=True):
     parse = segmentation
 
